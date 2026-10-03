@@ -9,7 +9,7 @@ try:
     # 1. Insertar un usuario
     cursor.execute(
         "INSERT INTO usuarios (nombre, email, nit) VALUES (?, ?, ?)",
-        ("Jhon peñaranda", "loncho44b@gamil.com", "1004945539"),
+        ("Jhon peñaranda", "loncho44b@gmail.com", "1004945539"),
     )
     # Recuperamos el id que la base de datos le asignó al usuario
     id_usuario = cursor.lastrowid
